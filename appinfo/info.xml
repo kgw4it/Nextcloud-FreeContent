@@ -1,23 +1,18 @@
 <?xml version="1.0"?>
 <info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
-    <id>aca</id>
-    <name>Ac A</name>
-    <summary>d</summary>
-    <description><![CDATA[e]]></description>
+    <id>free-content</id>
+    <name>Free Content</name>
+    <summary>App that allows you to create pages with arbitrary content (i.e. Imprint, Terms, ...)</summary>
+    <description></description>
     <licence>agpl</licence>
-    <author mail="c@a.com" >b</author>
+    <author mail="kg@w4it.at" >Klaus Gamauf</author>
     <version>0.0.1</version>
-    <namespace>AcA</namespace>
+    <namespace>FreeContent</namespace>
     <category>customization</category>
-    <bugs>https://a.c.com</bugs>
+    <bugs>https://www.w4drive.at</bugs>
     <dependencies>
         <nextcloud min-version="12" max-version="12"/>
+		<database>mysql</database>
     </dependencies>
-    <navigations>
-        <navigation>
-            <name>Ac A</name>
-            <route>aca.page.index</route>
-        </navigation>
-    </navigations>
 </info>
