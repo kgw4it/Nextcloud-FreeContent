@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>aca</id>
+    <name>Ac A</name>
+    <summary>d</summary>
+    <description><![CDATA[e]]></description>
+    <licence>agpl</licence>
+    <author mail="c@a.com" >b</author>
+    <version>0.0.1</version>
+    <namespace>AcA</namespace>
+    <category>customization</category>
+    <bugs>https://a.c.com</bugs>
+    <dependencies>
+        <nextcloud min-version="12" max-version="12"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Ac A</name>
+            <route>aca.page.index</route>
+        </navigation>
+    </navigations>
+</info>
